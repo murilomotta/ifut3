@@ -1,0 +1,13 @@
+/                                                       HomeR                GET
+/pessoa/cadastro                                        CadastroR            GET POST
+/pessoa/listar                                          ListPessoaR          GET
+/perfil/#PersonId                                       PessoaR              GET
+/login                                                  LoginR               GET POST
+/logout                                                 LogoutR              GET
+/curso/cadastro                                         CadastroCourseR      GET POST
+/curso/listar                                           ListCourseR          GET
+/inscricao/aluno                                        SubscribeR           GET POST
+/inscricao/listar                                       ListEnrollmentR      GET
+/frequencia/chamada/#CourseId                           ChamadaR             GET
+/frequencia/salvarChamada/#CourseId/#EnrollmentId       SalvarChamadaR       GET
+/chamadas                                               ListChamadaR         GET
